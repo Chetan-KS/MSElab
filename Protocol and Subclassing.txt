@@ -1,0 +1,22 @@
+PROTOCOL:
+	Objective-C was extended at NeXT to introduce the concept of multiple inheritance of specification, but not 
+implementation, through the introduction of protocols.
+
+1)Objective-C allows you to define protocols, which declare the methods expected to be used for a particular situation. 
+2)A protocol is used to declare methods and properties that are independent of any specific class.
+3)Protocol can include declarations of both instance methods and class methods, as well as properties.
+4)By default, all methods declared in a protocol are required methods.
+5)Protocols inherit from other protocols.
+6)Protocols are also useful in situations where the class of an object isn’t known, or needs to stay hidden.
+
+
+
+SUBCLASS:
+
+1)A subclass inherits methods and instance variables from its superclass.
+2)A subclass can override a method it inherits from the class it is based on.The class it is based on is called its 
+   superclass.
+3)Some objects have default methods and settings that may not be suitable for your needs.  By creating a custom subclass, 
+  you can set your interface elements to inherit qualities according to your criteria, not just from the object's default 
+  class implementation.
+
